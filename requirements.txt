@@ -4,3 +4,4 @@ pandas
 openpyxl
 openai
 python-multipart
+python-dotenv
