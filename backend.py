@@ -9,7 +9,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Load Excel
-file_path = r"C:\OpenGov1\Opengov_Framework.xlsx"
+file_path = file_path = "Opengov_Framework.xlsx"
 
 vendors_df = pd.read_excel(file_path, sheet_name="Vendors", engine="openpyxl")
 usage_df = pd.read_excel(file_path, sheet_name="Usage", engine="openpyxl")
